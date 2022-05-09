@@ -4,9 +4,9 @@ function getEmployeeByName(employeeName) {
   if (!employeeName) {
     return {};
   }
-  const objEmploy = data.employees.find((value) => value.firstName === employeeName.firstName
+  const objEmployee = data.employees.find((value) => value.firstName === employeeName
   || value.lastName === employeeName);
-  return objEmploy;
+  return objEmployee;
 }
 
 module.exports = getEmployeeByName;
