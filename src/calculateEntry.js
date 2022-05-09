@@ -16,6 +16,7 @@ function countEntrants(entrants) {
       acc.senior += 1;
       return acc;
     }
+    return null;
   }, { adult: 0, child: 0, senior: 0 });
   return entries;
 }
