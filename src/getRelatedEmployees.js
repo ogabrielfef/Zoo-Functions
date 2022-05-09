@@ -1,8 +1,6 @@
 const data = require('../data/zoo_data');
 
-function isManager(id) { 
-  return data.employees.some((value) => value.managers.includes(id));
-}
+const isManager = (id) => data.employees.some((value) => value.managers.includes(id));
 
 function getRelatedEmployees(managerId) {
   if (isManager(managerId) === true) {
