@@ -29,6 +29,6 @@ function calculateEntry(entrants) {
   + (pessosEntraram.child * prices.child)
   + (pessosEntraram.senior * prices.senior);
   return preçoTotal;
-} 
+}
 
 module.exports = { calculateEntry, countEntrants };
