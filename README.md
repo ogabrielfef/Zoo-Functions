@@ -20,7 +20,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-- Projeto cujo objetivo é testar a capacidade de produzir códigos legíveis, concisos utilizando as novas funcionalidades do ES6;
+- Projeto cujo objetivo é testar a capacidade de produzir códigos legíveis e concisos utilizando as novas funcionalidades do ES6;
 - Utilizar as _Higher Order Functions_ adequada a cada situação e usalas de forma conjunta;
 - Interpretar testes unitários para produzir códigos que os atendam.
 
